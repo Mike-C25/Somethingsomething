@@ -16,7 +16,7 @@ h1{
 	color: #eee;
 	font-size: 28px;
 	text-align: center;
-	padding: 20px 0px;
+	padding: 15px 0px;
 }
 h2{
 	font-size: 24px;
@@ -34,16 +34,17 @@ h2{
 
 #bio-image{
 	width: 200px;
+	margin-right: 20px;
 }
 
 #main-bio{
 	width: 70%;
-	margin: 20px;
 }
 
-#content-info{
+#contact-info{
 	width: 30%;
 	line-height: 1.5;
+	float: right;
 }
 
 a{
