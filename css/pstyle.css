@@ -1,0 +1,51 @@
+.container{
+	width: 66%;
+	margin: 0px auto;
+	line-height: 1.5;
+}
+
+.fixed-box{
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 250px;
+	height: 155px;
+	background: #eee;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;	
+}
+
+
+.rel-box{
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+}
+
+.abs-box{
+	position: absolute;
+	bottom: 0;
+	right: -30px;
+	background: #999;
+	width: 150px;
+	height: 100px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.box-container{
+	position: relative;
+	background: #eee;
+	width: 100%;
+	height: 200px;
+
+}
