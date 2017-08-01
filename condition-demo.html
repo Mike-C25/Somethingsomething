@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Steak Prompt</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+    //Ask if user likes steak
+    var steak = prompt("Do you like steak?");
+    var age = prompt("what is your age?");
+
+    age = parseInt(age);
+
+    if (steak) {
+        if (steak.toLowerCase() === "yes") {
+            document.write("Here's a Steak Sandwich!" + "<br>");
+        } else if (steak.toLowerCase() === "no") {
+            document.write("Here's a Tofu Stir Fry!" + "<br>");
+        } else {
+            alert("Please put an answer of yes or no");
+            steak = prompt("Do you like steak");
+        }
+    } else {
+        alert("Please put answer yes or no");
+        steak = prompt("Do you like steak");
+    }
+
+    if (age) {
+        if (age > 21) {
+            document.write("Happy Drinking!");
+        } else if (age === 21) {
+            document.write("You're an adult, Here's some sake on the house!");
+        } else {
+            document.write("No Sake for you!");
+        }
+    } else {
+        alert("please enter a number");
+        age = prompt("what is your age?");
+    }
+    </script>
+</body>
+
+</html>

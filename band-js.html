@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Band Stuff
+    </title>
+</head>
+
+<body>
+    <script type="text/javascript">
+    var promptOne = prompt("What's your favorite band?");
+    // var check = confirm("Are you sure?");
+
+    var bands = ["madeon", "relient k", "red hot chili peppers", "joe hisaishi", "hans zimmer"];
+
+
+    if (promptOne) {
+        if (bands.indexOf(promptOne.toLowerCase()) === -1) {
+            alert("Nah. They're pretty lame");
+        } else {
+
+            alert("YEAH I LOVE THEM!");
+        }
+    } else {
+        alert("You need to submt a band name");
+        promptOne = prompt("What's your favorite band?");
+    }
+
+    </script>
+</body>
+
+</html>
